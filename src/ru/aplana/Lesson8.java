@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lesson8 {
     public static void main(String[] args) {
         boolean positive = false;
-        int x = 0;
+        int x;
         do {
         Scanner sX = new Scanner(System.in);
         System.out.print("Введите положительное число больше 0: ");
