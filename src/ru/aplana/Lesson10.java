@@ -20,7 +20,7 @@ public class Lesson10 {
                 int Num = sNum.nextInt();
                 myArray[i][j] = Num;  // внесение элементов массива в кажду из строк
             }
-            System.out.println(); // перенос строки для более удобного ввода в каждую строку массива
+            System.out.println(); // перенос для более удобного ввода в отдельные строки массива
         }
         System.out.println("Массив выглядит следующим образом");
         System.out.println(Arrays.deepToString(myArray));
