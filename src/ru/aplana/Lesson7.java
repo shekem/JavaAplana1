@@ -14,7 +14,7 @@ public class Lesson7 {
         for (int i = 0; i <  myArray.length; i++) {
             Scanner sNum = new Scanner(System.in);
             System.out.print("Введите элемент массива: ");
-            int Num = sLength.nextInt();
+            int Num = sNum.nextInt();
             myArray[i] = Num;
         }
         for (int nums : myArray) {
