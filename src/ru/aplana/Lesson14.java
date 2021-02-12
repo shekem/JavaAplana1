@@ -20,6 +20,7 @@ public class Lesson14 {
         System.out.println(); //Переход на новую строку после цикла для более удобного отображения результата
         System.out.println("Максимальное число в массиве: " + max);
         System.out.println("Минимальное число в массиве: " + min);
+        //Сравнение модулей через вычитание для того, чтобы не плодить дополнительных переменных
         int aResult = Math.abs(max) - Math.abs(min);
         if (aResult > 0) {
             System.out.println("Максимальное значение по модулю: " + Math.abs(max));
