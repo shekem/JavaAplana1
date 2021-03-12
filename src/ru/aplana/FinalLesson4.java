@@ -9,7 +9,7 @@ public class FinalLesson4 {
         int count = 3;
         Scanner sHelp = new Scanner(System.in);
         System.out.println("Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает. Кто он?");
-        System.out.println("У вас 3 попытки");
+        System.out.println("Осталось " + count + " попытки");
         System.out.println("Можете запросить подсказку, введя слово 'подсказка' в строку.");
         System.out.println("При использовании подсказки у вас только будет только одна попытка");
         String help = sHelp.nextLine();
