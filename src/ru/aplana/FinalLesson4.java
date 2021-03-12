@@ -11,7 +11,7 @@ public class FinalLesson4 {
         System.out.println("Сидит дед, во сто шуб одет, кто его раздевает, тот слезы проливает. Кто он?");
         System.out.println("Осталось " + count + " попытки");
         System.out.println("Можете запросить подсказку, введя слово 'подсказка' в строку.");
-        System.out.println("При использовании подсказки у вас только будет только одна попытка");
+        System.out.println("При использовании подсказки у вас будет только одна попытка");
         String help = sHelp.nextLine();
         if (help.equalsIgnoreCase("подсказка")) {
             Scanner sAnswer = new Scanner(System.in);
